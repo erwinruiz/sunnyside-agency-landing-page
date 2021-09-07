@@ -20,7 +20,12 @@
   margin: 0;
 }
 body {
+  height: 100vh;
+  width: 100vw;
   font-size: 18px;
-  font-family: "Barlow", sans-serif; /* Weights: 600 */
-  /* font-family: "Fraunces", serif; */ /* Weights: 700, 900 */
+  display: flex;
+  justify-content: center;
+  /* Weights: 600 */
+  /* font-family: "Barlow", sans-serif;  */
+  /* Weights: 700, 900 */
 }

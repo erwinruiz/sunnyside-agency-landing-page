@@ -1,0 +1,31 @@
+.header {
+  height: 538px;
+  width: 100%;
+}
+.bg {
+  position: absolute;
+  width: 375px;
+  z-index: -1;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.navIcon {
+  cursor: pointer;
+}
+.header h1 {
+  color: var(--White);
+  text-align: center;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: "Fraunces", serif;
+  margin-bottom: 70px;
+}
+.arrow {
+  text-align: center;
+}

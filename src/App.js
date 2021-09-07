@@ -1,9 +1,12 @@
+import classes from "./App.module.css";
+import Header from "./Components/Header";
+
 function App() {
   return (
-    <div>
-      <h1>Sunnyside agency landing page</h1>
+    <div className={classes.container}>
+      <Header />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
