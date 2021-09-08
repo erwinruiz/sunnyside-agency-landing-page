@@ -1,0 +1,77 @@
+/* Container 1 */
+.container {
+  height: 93%;
+}
+.container img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.container .content {
+  padding: 0 25px;
+}
+.container .content h2 {
+  font-family: "Fraunces", serif;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.container .content .description {
+  text-align: center;
+  line-height: 1.7;
+  color: var(--Dark-grayish-blue);
+  margin-bottom: 35px;
+}
+.container .content .learnMore {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+.container .content .learnMoreYellow p {
+  box-shadow: 0 5px 0 hsla(51, 100%, 49%, 0.5);
+  display: inline;
+}
+.container .content .learnMoreRed p {
+  box-shadow: 0 5px 0 hsla(7, 99%, 70%, 0.5);
+  display: inline;
+}
+
+/* Container 2 */
+.container2 {
+  position: relative;
+  height: 600px;
+}
+.container2 img {
+  width: 375px;
+  z-index: -1;
+}
+.container2 .content {
+  position: absolute;
+  top: 380px;
+  padding: 0 21px;
+}
+.container2 .content h2 {
+  font-family: "Fraunces", serif;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.container2 .content .description {
+  text-align: center;
+  line-height: 1.7;
+  color: var(--Dark-grayish-blue);
+  font-size: 16px;
+}
+.graphicDesign h2 {
+  color: var(--Dark-desaturated-cyan);
+}
+.graphicDesign .description {
+  color: var(--Dark-desaturated-cyan) !important;
+}
+.photography h2 {
+  color: var(--Dark-blue);
+}
+.photography .description {
+  color: var(--Dark-blue) !important;
+}
