@@ -25,7 +25,5 @@ body {
   font-size: 18px;
   display: flex;
   justify-content: center;
-  /* Weights: 600 */
-  /* font-family: "Barlow", sans-serif;  */
-  /* Weights: 700, 900 */
+  font-family: "Barlow", sans-serif;
 }
