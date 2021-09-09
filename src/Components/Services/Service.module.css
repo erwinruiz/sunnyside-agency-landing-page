@@ -27,6 +27,7 @@
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 60px;
 }
 .container .content .learnMoreYellow p {
   box-shadow: 0 5px 0 hsla(51, 100%, 49%, 0.5);

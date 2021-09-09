@@ -1,10 +1,9 @@
 import Service from "./Service";
-import classes from "./Services.module.css";
 import { services } from "../../db/index";
 
 function Services() {
   return (
-    <section id="services" className={classes.container}>
+    <section id="services">
       {services.map((service, i) => (
         <Service
           key={i}

@@ -1,0 +1,37 @@
+.container {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.container h1 {
+  color: var(--Grayish-blue);
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  letter-spacing: 3px;
+}
+.testimonial {
+  text-align: center;
+}
+.testimonial img {
+  border-radius: 50%;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.testimonial .description {
+  color: var(--Very-dark-grayish-blue);
+  padding: 0 21px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.testimonial h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.testimonial .role {
+  color: var(--Grayish-blue);
+  font-size: 14px;
+}
