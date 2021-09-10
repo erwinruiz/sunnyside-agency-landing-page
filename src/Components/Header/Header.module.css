@@ -2,10 +2,13 @@
   height: 538px;
   width: 100%;
 }
-.bg {
+.bgMobile {
   position: absolute;
   width: 375px;
   z-index: -1;
+}
+.bgDesktop {
+  display: none;
 }
 .icons {
   display: flex;
@@ -35,4 +38,35 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+.navMenu {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .header {
+    height: 802px;
+  }
+  .bgMobile {
+    display: none;
+  }
+  .bgDesktop {
+    display: initial;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .header h1 {
+    font-size: 64px;
+    margin-bottom: 135px;
+  }
+  .icons {
+    padding: 20px 30px;
+    margin-bottom: 50px;
+  }
+  .navIcon {
+    display: none;
+  }
+  .navMenu {
+    display: initial;
+  }
 }

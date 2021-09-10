@@ -12,8 +12,13 @@ function Header() {
   return (
     <header className={classes.header}>
       <img
-        className={classes.bg}
+        className={classes.bgMobile}
         src="./images/mobile/image-header.jpg"
+        alt="header bg"
+      />
+      <img
+        className={classes.bgDesktop}
+        src="./images/desktop/image-header.jpg"
         alt="header bg"
       />
       <div className={classes.icons}>
@@ -24,6 +29,9 @@ function Header() {
           src="./images/icon-hamburger.svg"
           alt="menu icon"
         />
+        <div className={classes.navMenu}>
+          <NavMenu />
+        </div>
       </div>
       {openMenu && (
         <div className={classes.modal} onClick={toggleMenuHandler} />
