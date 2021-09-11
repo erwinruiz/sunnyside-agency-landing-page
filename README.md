@@ -4,10 +4,9 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
+  - [Screenshots](#screenshot)
 
 ## Overview
 
@@ -18,15 +17,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-
-## My process
+- Solution URL: [Click here](https://erwinruiz.github.io/sunnyside-agency-landing-page/)
 
 ### Built with
 
@@ -36,9 +29,15 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS Modules
 
 The designs were created to the following widths:
 
 - Mobile: 375px
 - Desktop: 1440px
+
+### Screenshot
+
+![](./screenshots/desktop-design.png)
+![](./screenshots/mobile-design.png)
+![](./screenshots/mobile-design-menu.png)
