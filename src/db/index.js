@@ -1,6 +1,7 @@
 const services = [
   {
-    bgImg: "./images/mobile/image-transform.jpg",
+    bgImgMobile: "./images/mobile/image-transform.jpg",
+    bgImgDesktop: "./images/desktop/image-transform.jpg",
     altImg: "Transform your brand",
     title: "Transform your brand",
     description:
@@ -8,7 +9,8 @@ const services = [
     learnMore: true,
   },
   {
-    bgImg: "./images/mobile/image-stand-out.jpg",
+    bgImgMobile: "./images/mobile/image-stand-out.jpg",
+    bgImgDesktop: "./images/desktop/image-stand-out.jpg",
     altImg: "Stand out to the right audience",
     title: "Stand out to the right audience",
     description:
@@ -16,7 +18,8 @@ const services = [
     learnMore: true,
   },
   {
-    bgImg: "./images/mobile/image-graphic-design.jpg",
+    bgImgMobile: "./images/mobile/image-graphic-design.jpg",
+    bgImgDesktop: "./images/desktop/image-graphic-design.jpg",
     altImg: "Graphic Design",
     title: "Graphic Design",
     description:
@@ -24,7 +27,8 @@ const services = [
     learnMore: false,
   },
   {
-    bgImg: "./images/mobile/image-photography.jpg",
+    bgImgMobile: "./images/mobile/image-photography.jpg",
+    bgImgDesktop: "./images/desktop/image-photography.jpg",
     altImg: "Photography",
     title: "Photography",
     description:

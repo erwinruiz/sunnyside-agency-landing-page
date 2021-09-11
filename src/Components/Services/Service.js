@@ -2,12 +2,18 @@ import classes from "./Service.module.css";
 import { Fragment } from "react";
 
 function Service(props) {
-  const { bgImg, altImg, title, description, learnMore } = props;
+  const { bgImgMobile, bgImgDesktop, altImg, title, description, learnMore } =
+    props;
   return (
     <Fragment>
       {learnMore && (
         <div className={classes.container}>
-          <img src={bgImg} alt={altImg} />
+          <img className={classes.bgImgMobile} src={bgImgMobile} alt={altImg} />
+          <img
+            className={classes.bgImgDesktop}
+            src={bgImgDesktop}
+            alt={altImg}
+          />
           <div className={classes.content}>
             <h2>{title}</h2>
             <p className={classes.description}>{description}</p>
@@ -23,21 +29,30 @@ function Service(props) {
           </div>
         </div>
       )}
-      {!learnMore && (
-        <div
-          className={`${classes.container2} ${
-            title === "Graphic Design"
-              ? classes.graphicDesign
-              : classes.photography
-          }`}
-        >
-          <img src={bgImg} alt={altImg} />
-          <div className={classes.content}>
-            <h2>{title}</h2>
-            <p className={classes.description}>{description}</p>
+        {!learnMore && (
+          <div
+            className={`${classes.container2} ${
+              title === "Graphic Design"
+                ? classes.graphicDesign
+                : classes.photography
+            }`}
+          >
+            <img
+              className={classes.bgImgMobile}
+              src={bgImgMobile}
+              alt={altImg}
+            />
+            <img
+              className={classes.bgImgDesktop}
+              src={bgImgDesktop}
+              alt={altImg}
+            />
+            <div className={classes.content}>
+              <h2>{title}</h2>
+              <p className={classes.description}>{description}</p>
+            </div>
           </div>
-        </div>
-      )}
+        )}
     </Fragment>
   );
 }

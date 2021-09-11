@@ -7,7 +7,8 @@ function Services() {
       {services.map((service, i) => (
         <Service
           key={i}
-          bgImg={service.bgImg}
+          bgImgMobile={service.bgImgMobile}
+          bgImgDesktop={service.bgImgDesktop}
           altImg={service.altImg}
           title={service.title}
           description={service.description}
