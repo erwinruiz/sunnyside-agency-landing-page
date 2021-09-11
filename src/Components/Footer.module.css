@@ -24,3 +24,20 @@
 .socialLinks img {
   cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 60px 0;
+  }
+  .container .logo {
+    margin-bottom: 35px;
+  }
+  .sectionsLinks {
+    justify-content: center;
+    gap: 60px;
+  }
+  .socialLinks {
+    justify-content: center;
+    gap: 25px;
+  }
+}
