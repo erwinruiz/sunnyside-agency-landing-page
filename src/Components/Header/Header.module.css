@@ -69,4 +69,7 @@
   .navMenu {
     display: initial;
   }
+  .modalAndMenuContainer {
+    display: none;
+  }
 }

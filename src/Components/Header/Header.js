@@ -34,9 +34,11 @@ function Header() {
         </div>
       </div>
       {openMenu && (
-        <div className={classes.modal} onClick={toggleMenuHandler} />
+        <div className={classes.modalAndMenuContainer}>
+          <div className={classes.modal} onClick={toggleMenuHandler} />
+          <NavMenu />
+        </div>
       )}
-      {openMenu && <NavMenu />}
       <h1>We are creatives</h1>
       <div className={classes.arrow}>
         <img src="./images/icon-arrow-down.svg" alt="arrow down" />
